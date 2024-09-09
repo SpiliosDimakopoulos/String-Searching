@@ -12,6 +12,7 @@ def FindBorders(p):
 
         if p[j] == p[i]:
             j += 1
+            
         b[i + 1] = j
 
     return b
